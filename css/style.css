@@ -11,11 +11,11 @@
     position: fixed;
     height: 80px;
     width: 100vw;
-    background-color: #00A2FF;
+    background-color: white;
 }
 .top img{
     height: 40px;
-    width: 231px;
+    width: auto;
 }
 .top nav{
     display: flex;
@@ -25,9 +25,22 @@
 }
 .top a{
     text-decoration: none;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
-    color: white;
+    text-decoration-style: none;
+    font-family: 'Lato', sans-serif;
+    color: #2987B5;
     font-size: 18pt;
+    transition-duration: 0.8s;
+}
+nav a:hover{
+    background-color: #2987B5;
+    color: white;
+    padding: 10px 14px 10px 14px;
+    transition-duration: 0.8s;
+    border-radius: 10px;
+}
+
+#nav_top{
+    text-decoration: none;
 }
 
 .banner img{
@@ -168,7 +181,7 @@ body,
 .carousel,
 .carousel-inner,
 .carousel-inner .item {
-    height: 30vh;
+    height: 400px;
 } 
 .item:nth-child(1) {
     background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/HZZKGVVJ6I.jpg');
