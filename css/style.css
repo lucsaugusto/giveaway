@@ -68,7 +68,7 @@ section{
 }
 section{
     transition: 1s;
-    transform: translateY(50%);
+    transform: translateY(20%);
     display: flex;
     opacity: 1;
 }
