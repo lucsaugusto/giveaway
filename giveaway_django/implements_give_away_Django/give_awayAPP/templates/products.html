@@ -1,0 +1,105 @@
+{% load staticfiles %}
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" type="text/css" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+    <link rel="stylesheet" href="{% static 'css/style.css' %}">
+    <link rel="shortcut icon" href="{% static 'assets/icon.png' %}" type="image/x-icon">
+
+    <title>Produtos</title>
+</head>
+
+<body>
+
+    <div class="top">
+        <a href="{% url 'index' %}"><img src="{% static 'assets/logo_png.png' %}" alt=""></a>
+
+        <nav>
+            <a href="{% url 'doacao' %}">Doar</a>
+            <a href="{% url 'login' %}">Login</a>
+            <a href="{% url 'cadastro' %}">Cadastro</a>
+        </nav>
+    </div>
+
+    <section>
+        <div class="produtoSessão">
+            <h1>Produtos</h1>
+
+            <div id="item01" class="produtosList">
+                <div class="imgProduto">
+                    <img src="{% static 'assets/produtos/imgProduto1.jpeg' %}" alt="">
+                </div>
+                <div class="infoProduto">
+                    <h1>Cadeira de rodas</h1>
+                    <h1>Acessórios hospitalar</h1>
+                    <a id="lookProdu" href="">Ver</a>
+                </div>
+            </div>
+                
+            <div id="item02" class="produtosList">
+                <div class="imgProduto">
+                        <img src="{% static 'assets/produtos/imgProduto2.jpeg' %}" alt="">
+                </div>
+                <div class="infoProduto">
+                    <h1>Tipoia</h1>
+                    <h1>Acessórios hospitalar</h1>
+                    <a  id="lookProdu" href="">Ver</a>
+                </div>
+            </div>
+
+            <div id="item03" class="produtosList">
+                    <div class="imgProduto">
+                            <img src="{% static 'assets/produtos/imgProduto3.jpeg' %}" alt="">
+                    </div>
+                    <div class="infoProduto">
+                        <h1>Muleta</h1>
+                        <h1>Acessórios hospitalar</h1>
+                        <a  id="lookProdu" href="">Ver</a>
+                    </div>
+                </div>
+                
+                
+            <div id="item04" class="produtosList">
+                    <div class="imgProduto">
+                            <img src="{% static 'assets/produtos/imgProduto4.jpeg' %}" alt="">
+                    </div>
+                    <div class="infoProduto">
+                        <h1>Andador - adulto</h1>
+                        <h1>Acessórios hospitalar</h1>
+                        <a  id="lookProdu" href="">Ver</a>
+                    </div>
+                </div>
+
+                
+            <div id="item05" class="produtosList">
+                    <div class="imgProduto">
+                            <img src="{% static 'assets/produtos/imgProduto5.jpeg' %}" alt="">
+                    </div>
+                    <div class="infoProduto">
+                        <h1>Bota ortapédica</h1>
+                        <h1>Acessórios hospitalar</h1>
+                        <a  id="lookProdu" href="">Ver</a>
+                    </div>
+                </div>
+        </div>
+
+
+    </section>
+    <article>
+        <div>
+            <h3>+ Categorias</h3>
+            <a class="ancCategory" href="">Material escolar</a> <br>
+            <a class="ancCategory" href="">Acessórios hospitalar</a><br>
+            <a class="ancCategory" href="">Vestimentas</a><br>
+            <a class="ancCategory" href="">Móveis</a><br>
+            <a class="ancCategory" href="">Eletrodomésticos</a><br>
+            <a class="ancCategory" href="">Brinquedos</a>
+    </article>
+    </div>
+</body>
+
+</html>
