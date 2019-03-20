@@ -3,7 +3,10 @@
     padding: 0;
     text-decoration: none;
 }
-
+#main{
+    display: flex;
+    flex-direction: column;
+}
 .top{
     margin-top: 0;
     display: flex;
@@ -55,7 +58,7 @@ nav a:hover{
     height: auto;
 }
 .about{
-    height: 20%;
+    height: 450px;
     background-color: rgb(0, 121, 114);
     text-align: center;
     color: rgb(224, 224, 224);
@@ -70,6 +73,7 @@ body{
     display: flex;
     /* justify-content: space-between; */
     flex-direction: row-reverse;
+    background-color: #2987B5;
 }
 
         /* initial article */
@@ -81,7 +85,6 @@ article{
     opacity: 1;
     justify-content: center;
     text-align: center;
-<<<<<<< HEAD
     flex-direction: column;
 }
 #ancCategory{
@@ -102,15 +105,13 @@ article{
         /* final article */
             /* initial secction */
 section{
-=======
->>>>>>> 4bf8a8776e023e640f60b749f1a069a930a82d24
     transition: 1s;
-    transform: translateY(20%);
+    transform: translateY(15%);
     width: 80%;
     display: flex;
     justify-content: center;
     text-align: center;
-
+    height: 700px;
 }
 #lookProdu{
     padding: 7px 20px 7px 20px;
@@ -124,6 +125,13 @@ section{
     display: flex;
     flex-direction: column;
     width: 80%;
+    margin-bottom: 100px;
+}
+.produtoSessão > h1{
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    background-color: black;
 }
 .produtoSessão > div{
     display: flex;
@@ -137,6 +145,11 @@ section{
     margin: 10px;
     border-radius: 10px;
     
+}
+#item01, #item02, #item03, #item04, #item05{
+    background-color: white;
+    box-shadow: 3px 3px 3px 3px;
+    border: none;
 }
 .produtosList > .infoProduto{
     text-align: center;
