@@ -55,11 +55,13 @@ nav a:hover{
     height: auto;
 }
 .about{
-    height: 500px;
-    background-color: white;
+    height: 20%;
+    background-color: rgb(0, 121, 114);
     text-align: center;
-    color: black;
-    font-size: 15pt;
+    color: rgb(224, 224, 224);
+    font-size: 20pt;
+    padding: 10%;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
 }
 
 
@@ -79,6 +81,7 @@ article{
     opacity: 1;
     justify-content: center;
     text-align: center;
+<<<<<<< HEAD
     flex-direction: column;
 }
 #ancCategory{
@@ -99,6 +102,8 @@ article{
         /* final article */
             /* initial secction */
 section{
+=======
+>>>>>>> 4bf8a8776e023e640f60b749f1a069a930a82d24
     transition: 1s;
     transform: translateY(20%);
     width: 80%;
@@ -114,6 +119,7 @@ section{
     border-radius: 10px;
     text-decoration: none;
 }
+
 .produtoSessão{
     display: flex;
     flex-direction: column;
@@ -216,12 +222,21 @@ section{
     }
 } 
 .carousel-caption {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    flex-direction: column;
     text-shadow: 0 1px 4px rgba(0,0,0,.9);
-    font-size:17px
 }
 .carousel-caption h3 {
-    font-size: 30px;
+    font-size: 40px;
     font-family: 'Lato', sans-serif;
+    color: black;
+}
+.carousel-caption span{
+    color: black;
+    font-size: 24px;
 }
 
 html,
@@ -232,21 +247,21 @@ body,
     height: 400px;
 } 
 .item:nth-child(1) {
-    background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/HZZKGVVJ6I.jpg');
+    background: url('https://uploaddeimagens.com.br/images/001/972/934/full/bg_yellow.png?1553040238');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .item:nth-child(2) {
-    background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/D2ROMCUEIV.jpg');
+    background: url('https://uploaddeimagens.com.br/images/001/972/931/full/bg_red.png?1553040205');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
 }
 
 .item:nth-child(3) {
-    background: url('https://snap-photos.s3.amazonaws.com/img-thumbs/960w/PU9HHZB5QW.jpg');
+    background: url('https://uploaddeimagens.com.br/images/001/972/928/full/bg_green.png?1553040139');
     background-size: cover;
     background-position: center center;
     background-repeat: no-repeat;
