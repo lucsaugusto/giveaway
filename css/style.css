@@ -87,7 +87,7 @@ article{
     text-align: center;
     flex-direction: column;
 }
-#ancCategory{
+.ancCategory{
     all: unset;
     text-decoration: none;
     color: darkgrey;
@@ -96,11 +96,12 @@ article{
     border-radius: 10px;
     padding: 5px;
 }
-#ancCategory:hover{
+.ancCategory:hover{
     transition: 2s;
     color: white;
     background-color: rgb(52, 52, 179);
     border-radius: 10px;
+    text-decoration: none;
 }
         /* final article */
             /* initial secction */
@@ -111,7 +112,7 @@ section{
     display: flex;
     justify-content: center;
     text-align: center;
-    height: 700px;
+    height: 1000px;
 }
 #lookProdu{
     padding: 7px 20px 7px 20px;
